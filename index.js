@@ -19,7 +19,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.appendFile(fileName, data, (err) => {
+  fs.writeFile(fileName, data, (err) => {
     err ? console.log(err) : console.log("Response Appended!");
   });
 }
@@ -53,9 +53,10 @@ function promptUser() {
         message: "What is the use-case for the application?",
       },
       {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "What License is the Project using?",
+        message: "Choose a License for the Project:",
+        choices: ["MIT", "Apache 2.0", "GPLv3", "BSD", "None"],
       },
       {
         type: "input",
@@ -70,7 +71,7 @@ function promptUser() {
       {
         type: "input",
         name: "git",
-        message: "What is your GitHub Profile Link?",
+        message: "What is your GitHub UserName?",
       },
       {
         type: "input",
@@ -81,11 +82,10 @@ function promptUser() {
     .then((data) => {
       const data_append = generateMarkdown(data);
       writeToFile("README.md", data_append);
+    })
+    .catch((error) => {
+      console.error("Error during prompt:", error);
     });
 }
-
-// function to initialize program
-
-// function call to initialize program
 
 promptUser();

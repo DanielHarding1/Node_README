@@ -1,6 +1,4 @@
 
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
   # Title of the Project : 
   
   d
@@ -15,15 +13,15 @@
 
    # How to Install the Project: 
    
-   ddd
+   dd
 
    # The Use Cases of the Project: 
    
-   d
-
-   # Licenses Used:  
    
-   MIT
+
+   # Licenses Used:  // Corrected typo (change 'lisence' to 'license')
+   
+   
 
    # Authors of the Project:
    
@@ -39,5 +37,5 @@
 
    # Email Address: 
    
-   d
+   dd
   
