@@ -15,18 +15,32 @@ function generateMarkdown(data) {
   return `
     ${licenseBadge}
 
+
+    # Table of Contents
+
+  1. [# Title of the Project](#title-of-the-project)
+  2. [# Description of the Project](#description-of-the-project)
+  3. [# How to Install the Project](#how-to-install-the-project)
+  4. [# The Use Cases of the Project](#the-use-cases-of-the-project)
+  5. [# Licenses Used](#licenses-used)
+  6. [# Authors of the Project](#authors-of-the-project)
+  7. [# Tests Carried out on the Project](#tests-carried-out-on-the-project)
+  8. [# Any Questions?](#question)
+
+    
+   
+    
+
   # Title of the Project : 
   
-  ${data.title}
+   ${data.title}
 
    # Description of the Project: 
    
    ${data.description}
-
-   # Table of Contents:  
    
-   ${data.contents}
 
+ 
    # How to Install the Project: 
    
    ${data.installation}
@@ -47,13 +61,13 @@ function generateMarkdown(data) {
    
    ${data.tests}
 
-   # Github Link: 
    
-   https://github.com/${data.git}
-
-   # Email Address: 
+   # Question:
    
-   ${data.email}
+   
+    - https://github.com/${data.git} 
+   
+    - ${data.email}
   `;
 }
 
