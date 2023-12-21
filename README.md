@@ -1,5 +1,5 @@
 
-    [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
     # Table of Contents
@@ -19,39 +19,39 @@
 
   # Title of the Project : 
   
-   asf
+   ReadMe Generator
 
    # Description of the Project: 
    
-   asf
+   This is a read me generator application, creating a badge for the licesnse and a hyperlinked table of contents 
    
 
  
    # How to Install the Project: 
    
-   af
+   Must install inquirer, node js
 
    # The Use Cases of the Project: 
    
-   af
+   This application can be used for any project requiring a README file, as it can be created however the end users want 
 
    # Licenses Used:  
    
-   GPLv3
+   MIT
 
    # Authors of the Project:
    
-   aff
+   Daniel Harding
 
    # Tests Carried out on the Project:  
    
-   dfa
+   Some Catch error testing has been carried out, more testing will be run in the future
 
    
    # Question:
    
    
-    - https://github.com/af 
+    - https://github.com/danielharding1 
    
-    - ff
+    - danielharding2008@gmail.com
   

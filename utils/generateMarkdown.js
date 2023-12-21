@@ -39,7 +39,6 @@ function generateMarkdown(data) {
    
    ${data.description}
    
-
  
    # How to Install the Project: 
    
