@@ -1,4 +1,4 @@
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 1. [# Title of the Project](#title-of-the-project)
 2. [# Description of the Project](#description-of-the-project)
